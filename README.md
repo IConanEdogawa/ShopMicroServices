@@ -1,6 +1,6 @@
 # My Project
 
-This is my first Microservices project where I <br>I use CQRS pattern for design.
+This is my first Microservices project where <br>I use CQRS pattern for design.
 
 ## Screenshots
 
