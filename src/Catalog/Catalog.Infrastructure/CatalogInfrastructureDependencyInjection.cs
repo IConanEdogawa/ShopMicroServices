@@ -15,9 +15,9 @@ namespace Catalog.Infrastructure
     {
         public static IServiceCollection AddCatalogInfrastructureDependencyInjetion(this IServiceCollection services, IConfiguration configuration) 
         {
-                services.AddDbContext<ICatalogDbContext, CatalogDbContext>(options =>
+            services.AddDbContext<ICatalogDbContext, CatalogDbContext>(options =>
                 {
-                    options.UseNpgsql(configuration.GetConnectionString("CatalogConnectionString"));
+                    options.UseNpgsql(configuration.GetConnectionString("DefaultString"));
                 });
             return services;
         }

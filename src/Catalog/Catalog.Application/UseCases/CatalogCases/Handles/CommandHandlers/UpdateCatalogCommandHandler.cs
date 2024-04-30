@@ -25,6 +25,7 @@ namespace Catalog.Application.UseCases.CatalogCases.Handles.CommandHandlers
             { 
               catalog.Name=request.Name;
               catalog.Description=request.Description;
+              catalog.Price=request.Price;
               await _context.SaveChangesAsync(cancellationToken);
                 return new ResponseModel
                 {

@@ -26,6 +26,7 @@ namespace Catalog.Application.UseCases.CatalogCases.Handles.CommandHandlers
                 {
                     Name= request.Name,
                     Description= request.Description,
+                    Price= request.Price,
                 };
                 await _context.Catalogs.AddAsync(catalog, cancellationToken);
                 await _context.SaveChangesAsync(cancellationToken);
