@@ -9,8 +9,8 @@
 
 # -----------
 
-Bu yerda Singleton haqida bir oz aytib o`tilgan. Albatta bu - new ishlatmagan holda siz constructor ishlatib newni oldini olishingizga yordam beradi.
-va singleton ekanligini alomati bu har safar default holatda `constructor` private holatda bo`ladi.
+Bu yerda Singleton haqida bir oz aytib otilgan. Albatta bu - new ishlatmagan holda siz constructor ishlatib newni oldini olishingizga yordam beradi.
+va singleton ekanligini alomati bu har safar default holatda `constructor` private holatda boladi.
 static korinishida ochilgan ushbu `constructor` qayerda ishlatish mumkin bolsa static holatda siz yanga olingan obyektni ishlatishingiz mumkin va u har safar `возвращается один и тот же объект` bir xil obyekt qaytaradi.
 
 ## Pseudocode
