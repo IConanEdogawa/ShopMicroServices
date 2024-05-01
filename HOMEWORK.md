@@ -104,5 +104,24 @@ Agar konstruktor `private` qilib ochilgan bo`lsa uning ishlash faoliyati faqat a
 
 Xullas `CQRS` boshqa `pattern` lardan farqi, u shablon emas aniq qat'iy yozilgan arxitektura ekanligi, malumotlarni `command` va `query` larga bo'linganligida.
 
+# ------------
 
+## Keyingi savol
+
+Контейнер внедрения зависимостей, также известный как контейнер обратного управления `(IoC, Inversion of Control)`, представляет собой фреймворк для реализации автоматического внедрения зависимостей. 
+
+Внедрение зависимостей `(Dependency Injection)`: Это паттерн проектирования, который позволяет передавать объектам их зависимости вместо того, чтобы они создавали их сами. Это способствует уменьшению связанности между компонентами и повышению переиспользуемости кода.
+
+## -----------
+
+Bu yerda esa `Dependency Injection` haqida aytilgan yani biz `dependency injection` lardan aynan mana shu obyekt yaratish va `impliement` qilishlarni autamatlashtirish uchun kerak bo'ladi. Bu esa o'z navbatida bining kodimizni yanada oson va xafsiz yani `exeption` lardan holi bo`lishiga yordam beradi.
+
+
+# ------------
+
+## IOC container nima?.
+
+bu savol ni javobi shu savoldan bitta tepadagi javob. Albata unutmaslik kerak bularni barchasi bizga class va obyektlarni bir biriga qaram bo`lib qolmasligi uchun kerak.
+
+## -----------
 
