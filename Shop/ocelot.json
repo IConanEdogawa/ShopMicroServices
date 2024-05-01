@@ -34,7 +34,31 @@
         }
       ],
       "UpstreamPathTemplate": "/apigetway/create",
-      "UpstreamHttpMethod": [ "POST "]
+      "UpstreamHttpMethod": [ "POST " ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/GetHello",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7019
+        }
+      ],
+      "UpstreamPathTemplate": "/apigetway/getHello",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/GetBye",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7165
+        }
+      ],
+      "UpstreamPathTemplate": "/apigetway/getBye",
+      "UpstreamHttpMethod": [ "GET" ]
     }
   ],
   "GlobalConfiguration": {
