@@ -14,7 +14,11 @@ va singleton ekanligini alomati bu har safar default holatda `constructor` priva
 static korinishida ochilgan ushbu `constructor` qayerda ishlatish mumkin bolsa static holatda siz yanga olingan obyektni ishlatishingiz mumkin va u har safar `возвращается один и тот же объект` bir xil obyekt qaytaradi.
 
 ## Pseudocode
-<!-- In this example, the database connection class acts as a Singleton. This class doesn’t have a public constructor, so the only way to get its object is to call the getInstance method. This method caches the first created object and returns it in all subsequent calls. -->
+
+
+В этом примере класс подключения к базе данных выступает в качестве `Singleton`. У этого класса нет открытого конструктора, поэтому единственный способ получить его объект - вызвать метод `getInstance`. Этот метод кеширует первый созданный объект и возвращает его во всех последующих вызовах.
+
+
 ```csharp
 // The Database class defines the `getInstance` method that lets
 // clients access the same instance of a database connection
@@ -62,3 +66,20 @@ class Application is
         // The variable `bar` will contain the same object as
         // the variable `foo`.
 ```
+
+## -----------
+
+## Keyingi savol
+
+
+Запечатанные классы используются для ограничения возможности наследования в объектно-ориентированном программировании. Как только класс определен как запечатанный `sealed`, этот класс не может быть унаследован. В `C#` модификатор `sealed` используется для объявления класса как запечатанного. В `Visual Basic` `.NET` для этой цели служит ключевое слово `NotInheritable`.
+
+# -----------
+
+
+`Sealed` bu `class` ni inherit qobilyatlarini cheklash uchun ishlatiladi. Qisqa qilib aytganda `ограничения возможности наследования` mana shunday.
+
+
+## -----------
+
+\# hello
