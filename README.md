@@ -80,6 +80,6 @@ This is my first Microservices project where <br>I use CQRS pattern for design.
 
 ## Homework solutions 
 
-[View my text file](/homework.txt)
+[View my text file](/HOMEWORK.md)
 
 
