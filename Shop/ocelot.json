@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7075
+          "Port": 3001
         }
       ],
       "UpstreamPathTemplate": "/apigetway/users",
@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7160
+          "Port": 3003
         }
       ],
       "UpstreamPathTemplate": "/apigetway/WeatherForecast",
@@ -30,7 +30,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7075
+          "Port": 3005
         }
       ],
       "UpstreamPathTemplate": "/apigetway/create",
@@ -42,7 +42,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7019
+          "Port": 3007
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getHello",
@@ -54,7 +54,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7165
+          "Port": 3009
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getBye",
