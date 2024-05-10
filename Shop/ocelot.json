@@ -5,8 +5,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 3001
+          "Host": "catalog.api",
+          "Port": 9090
         }
       ],
       "UpstreamPathTemplate": "/apigetway/users",
@@ -17,8 +17,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 3003
+          "Host": "discount.api",
+          "Port": 9092
         }
       ],
       "UpstreamPathTemplate": "/apigetway/WeatherForecast",
@@ -29,8 +29,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 3005
+          "Host": "orders.api",
+          "Port": 9094
         }
       ],
       "UpstreamPathTemplate": "/apigetway/create",
@@ -41,8 +41,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 3007
+          "Host": "shoppingcarts.api",
+          "Port": 9096
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getHello",
@@ -53,8 +53,8 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 3009
+          "Host": "shop",
+          "Port": 9098
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getBye",

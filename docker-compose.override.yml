@@ -4,22 +4,22 @@ services:
   catalog.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
-      - ASPNETCORE_HTTPS_PORTS=8081
+      - ASPNETCORE_HTTP_PORTS=9090
+      - ASPNETCORE_HTTPS_PORTS=9091
     ports:
-      - 3000:8080
-      - 3001:8081
+      - "8082:9090"
+      - "8083:9091"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
   discount.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
-      - ASPNETCORE_HTTPS_PORTS=8081
+      - ASPNETCORE_HTTP_PORTS=9092
+      - ASPNETCORE_HTTPS_PORTS=9093
     ports:
-      - 3002:8080
-      - 3003:8081
+      - "8084:9092"
+      - "8085:9093"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
@@ -27,11 +27,11 @@ services:
   orders.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
-      - ASPNETCORE_HTTPS_PORTS=8081
+      - ASPNETCORE_HTTP_PORTS=9094
+      - ASPNETCORE_HTTPS_PORTS=9095
     ports:
-      - 3004:8080
-      - 3005:8081
+      - "8086:9094"
+      - "8087:9095"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
@@ -39,11 +39,11 @@ services:
   shoppingcarts.api:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
-      - ASPNETCORE_HTTPS_PORTS=8081
+      - ASPNETCORE_HTTP_PORTS=9096
+      - ASPNETCORE_HTTPS_PORTS=9097
     ports:
-      - 3006:8080
-      - 3007:8081
+      - "8088:9096"
+      - "8089:9097"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
@@ -51,11 +51,11 @@ services:
   shop:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTP_PORTS=8080
-      - ASPNETCORE_HTTPS_PORTS=8081
+      - ASPNETCORE_HTTP_PORTS=9098
+      - ASPNETCORE_HTTPS_PORTS=9099
     ports:
-      - 3008:8080
-      - 3009:8081
+      - "8090:9098"
+      - "8091:9099"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
