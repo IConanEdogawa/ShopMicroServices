@@ -16,8 +16,8 @@ This is my first Microservices project where <br>I use CQRS pattern for design.
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7075
+          "Host": "catalog.api",
+          "Port": 9090
         }
       ],
       "UpstreamPathTemplate": "/apigetway/users",
@@ -28,8 +28,8 @@ This is my first Microservices project where <br>I use CQRS pattern for design.
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7160
+          "Host": "discount.api",
+          "Port": 9092
         }
       ],
       "UpstreamPathTemplate": "/apigetway/WeatherForecast",
@@ -40,8 +40,8 @@ This is my first Microservices project where <br>I use CQRS pattern for design.
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7075
+          "Host": "orders.api",
+          "Port": 9094
         }
       ],
       "UpstreamPathTemplate": "/apigetway/create",
@@ -52,8 +52,8 @@ This is my first Microservices project where <br>I use CQRS pattern for design.
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7019
+          "Host": "shoppingcarts.api",
+          "Port": 9096
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getHello",
@@ -64,8 +64,8 @@ This is my first Microservices project where <br>I use CQRS pattern for design.
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 7165
+          "Host": "shop",
+          "Port": 9098
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getBye",
