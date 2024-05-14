@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "catalog.api",
-          "Port": 9090
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/apigetway/users",
@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "discount.api",
-          "Port": 9092
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/apigetway/WeatherForecast",
@@ -30,7 +30,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "orders.api",
-          "Port": 9094
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/apigetway/create",
@@ -42,7 +42,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "shoppingcarts.api",
-          "Port": 9096
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getHello",
@@ -54,7 +54,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "shop",
-          "Port": 9098
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getBye",
