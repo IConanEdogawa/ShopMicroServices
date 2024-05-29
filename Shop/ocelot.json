@@ -5,44 +5,44 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "catalog.api",
-          "Port": 8081
+          "Host": "localhost",
+          "Port": 7075
         }
       ],
       "UpstreamPathTemplate": "/apigetway/users",
-      "UpstreamHttpMethod": [ "POST ", "GET" ]
+      "UpstreamHttpMethod": [ "POST", "GET" ]
     },
     {
       "DownstreamPathTemplate": "/WeatherForecast",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "discount.api",
-          "Port": 8081
+          "Host": "localhost",
+          "Port": 7160
         }
       ],
       "UpstreamPathTemplate": "/apigetway/WeatherForecast",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "GET" ]
     },
     {
       "DownstreamPathTemplate": "/api/Catalogs",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "orders.api",
-          "Port": 8081
+          "Host": "localhost",
+          "Port": 7019
         }
       ],
       "UpstreamPathTemplate": "/apigetway/create",
-      "UpstreamHttpMethod": [ "POST " ]
+      "UpstreamHttpMethod": [ "POST" ]
     },
     {
       "DownstreamPathTemplate": "/api/GetHello",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "shoppingcarts.api",
-          "Port": 8081
+          "Host": "localhost",
+          "Port": 7165
         }
       ],
       "UpstreamPathTemplate": "/apigetway/getHello",
